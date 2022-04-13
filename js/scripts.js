@@ -1,8 +1,15 @@
+/*
 function scrollDown(id){	
 	document.getElementById(id).classList.add("show");
 	document.getElementById(id).scrollIntoView({ 
 	behavior: 'smooth' 
-}).stop();
+});
+}
+*/
+
+function movePanels(){
+	document.querySelector('.upper').classList.add("fade-out");
+	
 }
 
 function hideLower(){

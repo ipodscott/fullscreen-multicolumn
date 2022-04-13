@@ -52,7 +52,13 @@ p{
 	align-items: center;
 	background-color: #efefef;
 	z-index: 0;
+	overflow: hidden;
+	transition: top 0.5s ease-in-out;
 	}
+	
+	.upper.fade-out{
+		top:-100vh;
+		}
 
 .upper-container{
 	display: flex;
@@ -66,6 +72,7 @@ p{
 	box-shadow: 0 0 black;
 	transition: box-shadow 0.5s ease-in-out;
 }
+
 
 @media only screen and (max-width: 1023px) {
 	

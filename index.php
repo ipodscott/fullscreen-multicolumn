@@ -15,16 +15,16 @@
 
 <body>
 	<div class="upper">
-		<div onclick="scrollDown('block-one')" class="upper-container">
+		<div onclick="movePanels()" class="upper-container column-one">
 			<div class="overlay"><h2>Title One</h2></div>
 		</div>
-		<div onclick="scrollDown('block-two')" class="upper-container">
+		<div onclick="movePanels()" class="upper-container column-two">
 			<div class="overlay"><h2>Title Two</h2></div>
 		</div>
-		<div onclick="scrollDown('block-three')" class="upper-container">
+		<div onclick="movePanels()" class="upper-container column-three">
 			<div class="overlay"><h2>Title Three</h2></div>
 		</div>
-		<div onclick="scrollDown('block-four')" class="upper-container">
+		<div onclick="movePanels()" class="upper-container column-four">
 			<div class="overlay"><h2>Title Four</h2></div>
 		</div>
 	</div>
