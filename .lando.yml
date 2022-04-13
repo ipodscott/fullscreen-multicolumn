@@ -1,0 +1,4 @@
+name: bigpanels
+recipe: lamp
+config:
+  webroot: .
