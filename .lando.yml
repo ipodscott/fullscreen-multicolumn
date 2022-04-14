@@ -1,4 +1,4 @@
-name: bigpanels
+name: bigcolumns
 recipe: lamp
 config:
   webroot: .

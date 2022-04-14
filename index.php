@@ -32,6 +32,13 @@
 	
 	<div id="block-one" class="lower">
 		<div class="top-image" style="background-image: url(https://images.unsplash.com/photo-1626187777040-ffb7cb2c5450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80)">
+			<div class="overlay">
+				<div>
+					<h2>Title One</h2>
+					<div class="fancy-div"></div>
+					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+				</div>
+			</div>
 		<div class="bottom-arrow">	
 				<svg  onclick="scrollUp('block-one-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
 				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
@@ -84,6 +91,15 @@
 	
 	<div id="block-two" class="lower show">
 		<div class="top-image" style="background-image: url(https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80)">
+			
+			<div class="overlay">
+				<div>
+					<h2>Title Two</h2>
+					<div class="fancy-div"></div>
+					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+				</div>
+			</div>
+			
 		<div class="bottom-arrow">	
 				<svg  onclick="scrollUp('block-two-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
 				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
@@ -92,6 +108,7 @@
 
 		</div>
 		<div id="block-two-copy" class="lower-copy">
+			
 			<div class="top-arrow">	
 				<svg  onclick="backToTop()"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
 				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
@@ -105,6 +122,14 @@
 		
 	<div id="block-three" class="lower">
 		<div class="top-image" style="background-image: url(https://images.unsplash.com/photo-1623177623442-979c1e42c255?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1vZGVybiUyMG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)">
+			
+			<div class="overlay">
+				<div>
+					<h2>Title Three</h2>
+					<div class="fancy-div"></div>
+					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+				</div>
+			</div>
 			
 			<div class="bottom-arrow">	
 				<svg  onclick="scrollUp('block-three-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
@@ -127,6 +152,14 @@
 	
 	<div id="block-four" class="lower">
 		<div class="top-image" style="background-image: url(https://images.unsplash.com/photo-1610960245237-cfab0dea6be4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);">
+			
+			<div class="overlay">
+				<div>
+					<h2>Title Four</h2>
+					<div class="fancy-div"></div>
+					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+				</div>
+			</div>
 			
 			<div class="bottom-arrow">	
 				<svg  onclick="scrollUp('block-four-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">

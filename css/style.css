@@ -18,7 +18,7 @@ body.no-scroll{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 2px;
 }
 
 /* Track */
@@ -28,10 +28,8 @@ body.no-scroll{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #999;
-  border-radius: 4px;
+  background: #fff;
   transition: all 0.5s;
-  height: 60px;
 }
 
 /* Handle on hover */
@@ -180,12 +178,11 @@ p{
 	align-items: center;
 	background-color: #ece6e6;
 	z-index: 1;
-	overflow-y: scroll;
 	height: unset;
 }
 
 .top-image{
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -194,6 +191,46 @@ p{
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
+}
+
+.top-image .overlay{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-image .overlay h2{
+	color: #fff;
+	display: block;
+	position: relative;
+	margin: 0  auto;
+	text-align: center;
+}
+
+.top-image .summary{
+	color: #fff;
+	display: block;
+	position: relative;
+	margin: 0  auto;
+	max-width: 800px;
+	width: calc(100vw - 40px);
+	font-weight: 300;
+}
+
+.fancy-div{
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #fff;
+	display: block;
+	position: relative;
+	width: calc(500px - 100px);
+	max-width: calc(100vw - 80px);
+	margin: 10px auto 10px auto;
+	opacity: 0.6;
 }
 
 .bottom-arrow{
@@ -205,6 +242,13 @@ p{
 	left: 0;
 	width: 100%;
 	height: 40px;
+	opacity: 1;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.bottom-arrow.hide{
+	opacity: 0;
 }
 
 .bottom-arrow svg{
@@ -228,6 +272,13 @@ p{
 	width: 100%;
 	height: 40px;
 	transform: rotate(180deg);
+	opacity: 1;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.top-arrow.hide{
+	opacity: 0;
 }
 
 .top-arrow svg{
@@ -246,6 +297,7 @@ p{
 	min-height: 100vh;
 	height: auto;
 	width: 100%;
+	background-color: #ece6e6;
 }
 
 .lower.show{
@@ -322,11 +374,12 @@ p{
 .main-container{
 	display: block;
 	position: relative;
-	max-width: 1200px;
-	width: calc(100vw - 40px);
+	width: 100%;
 	top: 100px;
 	margin: 0 auto;
 	top: 120px;
+	max-height: calc(100vh - 120px);
+	overflow-y: scroll;
 }
 
 .flex-container{
@@ -335,6 +388,8 @@ p{
 	position: relative;
 	margin: 0 auto 60px auto;
 	flex-wrap: wrap;
+	max-width: 1200px;
+	width: calc(100vw -  40px);
 }
 
 .flex-reverse{
