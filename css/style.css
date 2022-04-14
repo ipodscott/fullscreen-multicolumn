@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
 
-
 body, html{
 	margin: 0;
 	padding: 0;
@@ -9,8 +8,12 @@ body, html{
 
 body{
 	scroll-behavior: smooth;
-	overflow-y: hidden;
-	background-color: #333;
+	background-color: #333;	
+	overflow: hidden;
+}
+
+body.no-scroll{
+	//overflow-y: hidden;
 }
 
 /* width */
@@ -51,12 +54,12 @@ p{
 	justify-content: center;
 	align-items: center;
 	background-color: #efefef;
-	z-index: 0;
+	z-index: 999;
 	overflow: hidden;
 	transition: top 0.5s ease-in-out;
 	}
 	
-	.upper.fade-out{
+	.upper.slide-up{
 		top:-100vh;
 		}
 
@@ -170,18 +173,84 @@ p{
 .lower{
 	display: none;
 	position: relative;
-	margin-top:100vh;
 	left: 0;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	justify-content: center;
 	align-items: center;
 	background-color: #ece6e6;
-	z-index: 999;
+	z-index: 1;
+	overflow-y: scroll;
+	height: unset;
+}
+
+.top-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.bottom-arrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.bottom-arrow svg{
+	width: 60px;
+	fill:#fff !important;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 80px 10px 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#999;
+	box-shadow: 0px 0px 22px black;
+}
+
+.top-arrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	transform: rotate(180deg);
+}
+
+.top-arrow svg{
+	width: 60px;
+	fill:#000 !important;
+	background-color: transparent;
+	padding: 10px 80px 10px 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#999;
+}
+
+.lower-copy{
+	display: block;
+	position: relative;
+	min-height: 100vh;
+	height: auto;
+	width: 100%;
 }
 
 .lower.show{
-	display: flex;
+	display: block;
+	height: 100vh;
 }
 
 .back-to-top{
@@ -209,5 +278,76 @@ p{
 .back-to-top svg:hover{
 	background-color: #000;
 	fill:#fff;
-	
+}
+
+.menu-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	right: -40px;
+	top: 20px;
+	z-index: 999;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.76);
+	box-shadow: 0px 0px 20px black;
+	z-index: 9999;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.menu-button.show{
+	right: 20px;
+}
+
+.menu-button div{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu-button span{
+	display: block;
+	width:60%;
+	height: 2px;
+	margin: 2px 0 2px 0;
+	background-color: #fff;
+}
+
+.main-container{
+	display: block;
+	position: relative;
+	max-width: 1200px;
+	width: calc(100vw - 40px);
+	top: 100px;
+	margin: 0 auto;
+	top: 120px;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin: 0 auto 60px auto;
+	flex-wrap: wrap;
+}
+
+.flex-reverse{
+	flex-direction: row-reverse;
+}
+
+
+.flex-column{
+	margin: 0 10px 0 10px;
+	flex: 1 1 300px;
+}
+
+.flex-column img{
+	max-width: 100%;
+	height: auto;
 }

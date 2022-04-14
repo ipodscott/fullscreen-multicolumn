@@ -1,25 +1,49 @@
-/*
+
 function scrollDown(id){	
 	document.getElementById(id).classList.add("show");
-	document.getElementById(id).scrollIntoView({ 
+	document.querySelector(id).scrollIntoView({ 
 	behavior: 'smooth' 
 });
-}
-*/
-
-function movePanels(){
-	document.querySelector('.upper').classList.add("fade-out");
-	
 }
 
 function hideLower(){
 	document.querySelector('.lower.show').classList.remove("show");
 }
 
-function scrollUp(id) {
-  window.scroll({top: 0, left: 0, behavior: 'smooth'});
+function movePanels(id){
+	document.querySelector('.lower.show').classList.remove("show");
+	document.querySelector('body.no-scroll').classList.remove("no-scroll");
+	document.querySelector('.upper').classList.add("slide-up");
+	document.getElementById(id).classList.add("show");
+	document.querySelector('.menu-button').classList.add("show");
 	
-	setTimeout(function(){hideLower();},500);
+	document.querySelector(id).scrollIntoView({ 
+		behavior: 'smooth' 
+	});
+}
+
+function backToTop(){
+	const list = document.querySelectorAll('.top-image');
+	for (let topimage of list) {
+	  topimage.scrollIntoView({
+		behavior: 'smooth' 
+	});}
+}
+
+function showPanels(){
+	document.querySelector('.upper').classList.remove("slide-up");
+	window.scroll({top: 0, left: 0, behavior: 'smooth'});
+	document.querySelector('body').classList.add("no-scroll");
+	document.querySelector('.menu-button').classList.remove("show");
+	backToTop();
+}
+
+
+function scrollUp(id) {
+  	document.getElementById(id).scrollIntoView({ 
+	behavior: 'smooth' 
+});
+	
 }
 
 
