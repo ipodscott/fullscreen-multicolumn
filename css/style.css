@@ -53,7 +53,7 @@ p{
 	align-items: center;
 	background-color: #efefef;
 	z-index: 999;
-	overflow: hidden;
+	//overflow: hidden;
 	transition: top 0.5s ease-in-out;
 	}
 	
@@ -122,6 +122,7 @@ p{
 
 .upper-container .overlay{
 	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -179,6 +180,7 @@ p{
 	background-color: #ece6e6;
 	z-index: 1;
 	height: unset;
+	overflow-y: scroll;
 }
 
 .top-image{
@@ -237,29 +239,31 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
-	bottom: 20px;
+	position: relative;
 	left: 0;
 	width: 100%;
 	height: 40px;
 	opacity: 1;
 	transition: all 0.5s;
 	cursor: pointer;
-}
-
-.bottom-arrow.hide{
-	opacity: 0;
+	margin-top: 10px;
+	transition: all 0.5s;
 }
 
 .bottom-arrow svg{
-	width: 60px;
+	width: 20px;
 	fill:#fff !important;
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: 10px 80px 10px 80px;
+	padding: 10px 30px 10px 30px;
 	border-style: solid;
 	border-width: 1px;
 	border-color:#999;
 	box-shadow: 0px 0px 22px black;
+	transition: all 0.5s;
+}
+
+.bottom-arrow svg:hover{
+	padding: 12px 30px 8px 30px;
 }
 
 .top-arrow{
@@ -379,7 +383,7 @@ p{
 	margin: 0 auto;
 	top: 120px;
 	max-height: calc(100vh - 120px);
-	overflow-y: scroll;
+	//overflow-y: scroll;
 }
 
 .flex-container{

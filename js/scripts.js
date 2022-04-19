@@ -23,8 +23,6 @@ function movePanels(id){
 }
 
 function backToTop(){
-	document.querySelector('.bottom-arrow').classList.remove("hide");
-	document.querySelector('.top-arrow').classList.add("hide");
 	const list = document.querySelectorAll('.top-image');
 	for (let topimage of list) {
 	  topimage.scrollIntoView({
@@ -42,8 +40,6 @@ function showPanels(){
 
 
 function scrollUp(id) {
-	document.querySelector('.bottom-arrow').classList.add("hide");
-	document.querySelector('.top-arrow').classList.remove("hide");
   	document.getElementById(id).scrollIntoView({ 
 	behavior: 'smooth' 
 });

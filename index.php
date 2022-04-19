@@ -37,21 +37,19 @@
 					<h2>Title One</h2>
 					<div class="fancy-div"></div>
 					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+					
+					<div class="bottom-arrow">	
+						<svg  onclick="scrollUp('block-one-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
+							<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
+						</svg>
+					</div>
+					
 				</div>
 			</div>
-		<div class="bottom-arrow">	
-				<svg  onclick="scrollUp('block-one-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-			</svg>
-		</div>
+		
 
 		</div>
 		<div id="block-one-copy" class="lower-copy">
-			<div class="top-arrow">	
-				<svg  onclick="backToTop()"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-					<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
-			</div>
 			
 			<div class="main-container">
 				
@@ -97,23 +95,20 @@
 					<h2>Title Two</h2>
 					<div class="fancy-div"></div>
 					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+					
+					<div class="bottom-arrow">	
+						<svg  onclick="scrollUp('block-two-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
+							<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
+						</svg>
+					</div>
+					
 				</div>
 			</div>
-			
-		<div class="bottom-arrow">	
-				<svg  onclick="scrollUp('block-two-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-			</svg>
-		</div>
 
 		</div>
 		<div id="block-two-copy" class="lower-copy">
 			
-			<div class="top-arrow">	
-				<svg  onclick="backToTop()"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
-			</div>
+			
 			
 			<div class="main-container">
 				
@@ -162,23 +157,19 @@
 					<h2>Title Three</h2>
 					<div class="fancy-div"></div>
 					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+					
+					<div class="bottom-arrow">	
+						<svg  onclick="scrollUp('block-three-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
+							<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
+						</svg>
+					</div>
+					
 				</div>
-			</div>
-			
-			<div class="bottom-arrow">	
-				<svg  onclick="scrollUp('block-three-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-					<polygon points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
-			</div>
-			
+			</div>			
 		</div>
 		<div id="block-three-copy" class="lower-copy">
 			
-			<div class="top-arrow">	
-				<svg  onclick="backToTop()"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
-			</div>
+		
 			
 			<div class="main-container">
 				
@@ -225,23 +216,18 @@
 					<h2>Title Four</h2>
 					<div class="fancy-div"></div>
 					<div class="summary">My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Oh sure! Blame the wizards!</div>
+					
+					<div class="bottom-arrow">	
+						<svg  onclick="scrollUp('block-four-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
+							<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
+						</svg>
+					</div>
+					
 				</div>
-			</div>
-			
-			<div class="bottom-arrow">	
-				<svg  onclick="scrollUp('block-four-copy')"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-					<polygon points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
 			</div>
 			
 		</div>
 		<div id="block-four-copy" class="lower-copy">
-			
-			<div class="top-arrow">	
-				<svg  onclick="backToTop()"  x="0px" y="0px" viewBox="0 0 44 19.4" style="enable-background:new 0 0 44 19.4;" xml:space="preserve">
-				<polygon  points="22,17.4 4.6,3.3 5.9,1.7 22,14.8 38.1,1.7 39.4,3.3 "/>
-				</svg>
-			</div>
 			
 			<div class="main-container">
 				
