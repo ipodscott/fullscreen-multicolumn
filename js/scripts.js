@@ -12,7 +12,6 @@ function hideLower(){
 
 function movePanels(id){
 	document.querySelector('.lower.show').classList.remove("show");
-	document.querySelector('body.no-scroll').classList.remove("no-scroll");
 	document.querySelector('.upper').classList.add("slide-up");
 	document.getElementById(id).classList.add("show");
 	document.querySelector('.menu-button').classList.add("show");

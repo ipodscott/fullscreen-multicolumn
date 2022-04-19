@@ -13,7 +13,7 @@
 
 </head>
 
-<body class="no-scroll">
+<body class="">
 	
 	<div class="upper fade-out">
 		<div onclick="movePanels('block-one')" class="upper-container column-one">
